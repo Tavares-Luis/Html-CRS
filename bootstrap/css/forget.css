@@ -1,0 +1,48 @@
+.body{
+    background-color: #1a1a1e;
+}
+.fundoPreto{
+    background-color: #1a1a1e;
+    margin-left: -1.42%;
+    height: auto;
+    width: auto;
+    ;
+}
+.center {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 20px;
+    margin: 14.9%;
+  }
+.test{
+    margin-left: -3%;
+}
+span{
+    color: #c4c4cc;
+    margin-left: -3%;
+    margin-top: 5%;
+}
+.input{
+    border: 1px solid;
+    border-color: #29292e;
+    background-color:  #121214;
+    color: #71717e;
+
+    
+}
+.input:focus{
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 1px solid #9956f6;
+}
+.a{
+    color: #b585fb;
+    text-decoration: none;
+}
+.back{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: #c4c4cc;
+}

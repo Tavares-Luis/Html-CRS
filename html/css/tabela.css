@@ -1,0 +1,64 @@
+   #teste{
+        font-weight: bold;
+    }
+    .amarelo{
+        color: yellow;
+    }
+    .fundoAzul{
+        background-color: blue;
+    }
+    .fundoAzul:hover{
+        background-color: purple;
+        transition: all 1s ease-out;
+    }
+
+    table, tr, th{
+        border: 1px solid black;
+        padding: 8px;
+    }
+    th{
+        background-color: rgb(165, 165, 165);
+    }
+    td{
+        padding: 12px;
+    }
+    nav {
+        display: flex;
+        gap: 1px;
+      }
+      
+      a {
+        flex: 1;
+        background-color: #333;
+        color: #fff;
+        border: 1px solid;
+        padding: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s ease-out;
+      }
+      
+      a:hover,
+      a:focus {
+        background-color: #fff;
+        color: #333;
+      }
+
+      .img{
+        width: 120px;
+        height: 120px;
+        transition:
+        width 2s,
+        height 2s,
+        background-color 2s,
+        rotate 2s;
+
+      }
+      .img:hover{
+        background-color: lightsteelblue;
+        width: 200px;
+        height: 200px;
+        rotate: 360deg;
+      }
+      
+      
